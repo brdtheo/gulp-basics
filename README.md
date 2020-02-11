@@ -1,4 +1,5 @@
-# SASS Training <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" width="50px">
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" width="100px">
+# SASS Training
 
 Approfondissement des feuilles de styles avec l'intégration de maquettes en SCSS & SASS
+
+![capture d'écran de la maquette](https://imgur.com/IWkhMuJ)
