@@ -1,0 +1,17 @@
+.main-header { padding: 2rem 0; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; height: 750px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; background-image: url("../img/img-ban.jpg"); background-position: bottom; background-size: cover; }
+
+.main-header .nav-header { font-weight: 600; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-transform: uppercase; }
+
+.main-header .nav-header a { width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; color: #3d3c3c; margin: 0 2rem; text-decoration: none; }
+
+.main-header .nav-header img { padding: 0 2rem; }
+
+* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; }
+
+.main-content { width: 1600px; margin: 0 auto; }
+
+body { font-family: 'Raleway','Helvetica', 'Arial', sans-serif; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlcyI6WyJzdHlsZS5zY3NzIiwiX3ZhcmlhYmxlcy5zY3NzIiwiX2hlYWRlci5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBRUFBLEFBQUEsWUFBWSxDQUFDLEVBQ1QsT0FBTyxFQUFFLE1BQU0sRUFDZixlQUFlLEVBQUUsTUFBTSxFQUN2QixNQUFNLEVBQUUsS0FBSyxFQUNiLE9BQU8sRUFBRSxJQUFJLEVBQ2IsV0FBVyxFQUFFLFVBQVUsRUFDdkIsZ0JBQWdCLEVBQUUseUJBQXlCLEVBQzNDLG1CQUFtQixFQUFFLE1BQU0sRUFDM0IsZUFBZSxFQUFFLEtBQUssR0FnQnpCOztBQXhCRCxBQVNJLFlBVFEsQ0FTUixXQUFXLENBQUMsRUFDUixXQUFXLEVBQUUsR0FBRyxFQUNoQixPQUFPLEVBQUUsSUFBSSxFQUNiLFdBQVcsRUFBRSxNQUFNLEVBQ25CLGNBQWMsRUFBRSxTQUFTLEdBVTVCOztBQXZCTCxBQWNRLFlBZEksQ0FTUixXQUFXLENBS1AsQ0FBQyxDQUFDLEVBQ0UsS0FBSyxFQUFFLFdBQVcsRUFDbEIsS0FBSyxFRGhCVixPQUFxQixFQ2lCaEIsTUFBTSxFQUFFLE1BQU0sRUFDZCxlQUFlLEVBQUUsSUFBSSxHQUN4Qjs7QUFuQlQsQUFvQlEsWUFwQkksQ0FTUixXQUFXLENBV1AsR0FBRyxDQUFDLEVBQ0EsT0FBTyxFQUFFLE1BQU0sR0FDbEI7O0FGbkJULEFBQUEsQ0FBQyxDQUFDLEVBQ0UsVUFBVSxFQUFFLFVBQVUsRUFDdEIsTUFBTSxFQUFFLENBQUMsR0FDWjs7QUFFRCxBQUFBLGFBQWEsQ0FBQyxFQUNWLEtBQUssRUFBRSxNQUFNLEVBQ2IsTUFBTSxFQUFFLE1BQU0sR0FDakI7O0FBRUQsQUFBQSxJQUFJLENBQUMsRUFDRCxXQUFXLEVBQUUsMENBQTBDLEdBQzFEIn0= */
+
+/*# sourceMappingURL=style.css.map */

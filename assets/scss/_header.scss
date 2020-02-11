@@ -1,0 +1,25 @@
+.main-header {
+    padding: 2rem 0;
+    justify-content: center;
+    height: 750px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url('../img/img-ban.jpg');
+    background-position: bottom;
+    background-size: cover;
+    .nav-header {
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        a {
+            width: fit-content;
+            color: $noir;
+            margin: 0 2rem;
+            text-decoration: none;
+        }
+        img {
+            padding: 0 2rem;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'header';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main-content {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Raleway','Helvetica', 'Arial', sans-serif;
+}
