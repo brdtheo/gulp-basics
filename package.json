@@ -46,5 +46,9 @@
     "images": "gulp images",
     "clearCache": "gulp clearCache",
     "translate": "gulp translate"
+  },
+  "dependencies": {
+    "lax.js": "^1.2.5",
+    "rellax": "^1.12.0"
   }
 }

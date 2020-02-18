@@ -56,7 +56,7 @@ module.exports = {
 	BROWSERS_LIST: [
 		'last 2 version',
 		'> 1%',
-		'ie >= 11',
+		'ie >= 9',
 		'last 1 Android versions',
 		'last 1 ChromeAndroid versions',
 		'last 2 Chrome versions',
