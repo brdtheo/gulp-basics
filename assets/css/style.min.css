@@ -7,9 +7,9 @@ body{font-family:'Raleway','Helvetica','Arial',sans-serif}
 .main-content{width:1600px;margin:0 auto}
 .title-2,main .main-grid .text div .title-2{font-weight:700;padding:1rem 0;color:#3d3c3c;font-size:1.25rem;letter-spacing:1px}
 .uppercase{text-transform:uppercase}
-main .new-generation,main .twitter{padding:10rem 0;background:#f7f7f7;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-main .new-generation img,main .twitter img{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
-main .new-generation p,main .twitter p{max-width:50%;text-align:center;line-height:200%}
+main .new-generation,main .twitter,main .newsletter{padding:10rem 0;background:#f7f7f7;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+main .new-generation img,main .twitter img,main .newsletter img{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
+main .new-generation p,main .twitter p,main .newsletter p{max-width:50%;text-align:center;line-height:200%}
 main .main-grid{display:grid;grid-template-columns:repeat(6,1fr)}
 main .main-grid .item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;width:100%;grid-column:auto / span 2}
 main .main-grid .item img{width:100%;height:100%}
@@ -22,9 +22,23 @@ main .main-grid .text div .title-2{padding:1.5rem 0}
 main .main-grid .text div img{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
 main .main-grid .text div p{text-align:justify;line-height:175%;color:#565656}
 main .main-grid .text div::after{content:'';position:absolute;width:0;height:0;top:100%;border-left:20px solid transparent;border-right:20px solid transparent;border-top:20px solid white}
-main .twitter{position:relative}
-main .twitter .tweet-time{color:#c4c4c4}
-main .twitter .slider-dots{display:grid;grid-template-columns:repeat(3,1fr);grid-column-gap:.5rem;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;height:15px;position:absolute;bottom:10%}
-main .twitter .slider-dots span{cursor:pointer;width:15px;height:15px;border:solid #b7b7b7 2px;border-radius:50%;-webkit-transition:all ease-in-out 100ms;transition:all ease-in-out 100ms}
-main .twitter .slider-dots span:hover{background:#b7b7b7}
-main .twitter .slider-dots span:first-child{background:#b7b7b7}
+main .twitter,main .newsletter{position:relative}
+main .twitter .tweet-time,main .newsletter .tweet-time{color:#c4c4c4}
+main .twitter .slider-dots,main .newsletter .slider-dots{display:grid;grid-template-columns:repeat(3,1fr);grid-column-gap:.5rem;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;height:15px;position:absolute;bottom:10%}
+main .twitter .slider-dots span,main .newsletter .slider-dots span{cursor:pointer;width:15px;height:15px;border:solid #b7b7b7 2px;border-radius:50%;-webkit-transition:all ease-in-out 100ms;transition:all ease-in-out 100ms}
+main .twitter .slider-dots span:hover,main .newsletter .slider-dots span:hover{background:#b7b7b7}
+main .twitter .slider-dots span:first-child,main .newsletter .slider-dots span:first-child{background:#b7b7b7}
+main .shop-grid{display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:auto auto}
+main .shop-grid .item{cursor:pointer;position:relative;grid-column:auto / span 1}
+main .shop-grid .item .bg{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;display:block;z-index:0}
+main .shop-grid .item .ui-hover{opacity:0;position:absolute;top:0;left:0;width:100%;height:100%;-webkit-transition:all ease-in-out 100ms;transition:all ease-in-out 100ms;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+main .shop-grid .item .ui-hover img{width:75px}
+main .shop-grid .item .ui-hover span{color:white;text-transform:uppercase;margin-top:.5rem;letter-spacing:3px;font-weight:700}
+main .shop-grid .item .ui-hover:hover{opacity:1;background:rgba(107,176,148,0.75)}
+main .shop-grid .wide-vertical{grid-column:auto / span 1;grid-row:auto / span 2}
+main .shop-grid .wide-horizontal{grid-column:auto / span 2;grid-row:auto / span 1}
+main .newsletter{background:white}
+main .newsletter h2{color:#b7b7b7;padding:1rem 0 2rem 0}
+main .newsletter form{display:grid;grid-template-columns:3fr 1fr;grid-column-gap:1rem}
+main .newsletter form input[type=submit]{background:#6bb094;border:0;color:white;padding:1rem 3rem;font-family:'Raleway',arial,sans-serif;text-transform:uppercase;font-size:1.5rem;font-weight:lighter}
+main .newsletter form input[type=text]{padding:1rem 1rem;border:solid #b7b7b7 1px}
