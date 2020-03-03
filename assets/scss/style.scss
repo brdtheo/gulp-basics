@@ -1,13 +1,15 @@
 @import 'variables';
 @import 'header';
+@import 'footer';
 
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
-body {
+body,html {
     font-family: 'Raleway','Helvetica', 'Arial', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .main-content {
@@ -174,7 +176,7 @@ main {
                 justify-content: center;
                 align-items: center;
                 img {
-                    width: 75px;
+                    width: 60px;
                 }
                 span {
                     color: white;
@@ -196,6 +198,30 @@ main {
         .wide-horizontal {
             grid-column: auto / span 2;
             grid-row: auto / span 1;
+        }
+    }
+
+    .discover {
+        height: 200px;
+        background: $discover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+            text-decoration: inherit;
+            text-transform: uppercase;
+            color: $gris;
+            letter-spacing: 2px;
+            padding: 1rem 3rem;
+            border: solid $gris 1px;
+            border-radius: 3px;
+            font-size: .75rem;
+            font-weight: 600;
+            transition: all ease 100ms;
+        }
+        a:hover {
+            background: $gris;
+            color: $discover;
         }
     }
 

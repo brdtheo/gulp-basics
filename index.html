@@ -9,20 +9,20 @@
 <body class="main-content"><!--body-->
     <header class="main-header"><!--header-->
         <nav class="nav-header"><!--navigation-->
-            <a href="#">about us</a>
+            <a href="#aboutus">about us</a>
             <span>.</span>
-            <a href="#">work</a>
+            <a href="#ourwork">work</a>
 
-            <img src="./assets/img/icons/main-logo.png" alt="logo du magasin">
+            <a href="#"><img src="./assets/img/icons/main-logo.png" alt="logo du magasin"></a>
 
-            <a href="#">shop</a>
+            <a href="#shop-grid">shop</a>
             <span>.</span>
-            <a href="#">contact</a>
+            <a href="#newsletter">contact</a>
         </nav>
     </header>
 
     <main><!--content-->
-        <section class="new-generation"><!--new generation-->
+        <section class="new-generation" id="aboutus"><!--new generation-->
             <img src="./assets/img/icons/chaine.png" alt="icône de chaine">
             <h2 class="title-2 uppercase">a new generation of vintage bike</h2>
             <p>
@@ -33,7 +33,7 @@
             </p>
         </section>
 
-        <section class="main-grid"><!--grid-->
+        <section class="main-grid" id="ourwork"><!--grid-->
             <div class="item wide"><!--item 1-->
                 <img src="./assets/img/img-1.jpg" alt="vélo brooks" class="bg">
                 <img src="./assets/img/logo-bicycle-company.png" alt="image de vélo 1" class="icon">
@@ -113,45 +113,77 @@
             </div>
         </section>
 
-        <section class="shop-grid">
-            <div class="item"><!--item 1-->
-                <a href="#"><img src="./assets/img/shop-1.jpg" alt="selle de vélo brooks" class="bg"></a>
-            </div>
-
-            <div class="item"><!--item 2-->
-                <a href="#"><img src="./assets/img/shop-2.jpg" alt="selles de vélo en magasin" class="bg"></a>
-            </div>
-
-            <div class="item wide-vertical"><!--item 3-->
-                <a href="#"><img src="./assets/img/shop-4.jpg" alt="bagage sur vélo" class="bg"></a>
-            </div>
-
-            <div class="item wide-vertical"><!--item 4-->
-                <a href="#"><img src="./assets/img/shop-5.jpg" alt="bagage sur vélo" class="bg"></a>
-            </div>
-
-            <div class="item wide-horizontal"><!--item 5-->
+        <section class="shop-grid" id="shop-grid">
+            <a href="#shop-grid" class="item"><!--item 1-->
                 <div class="ui-hover">
                     <img src="./assets/img/logo-shop.png" alt="logo de la boutique">
                     <span>shop now</span>
                 </div>
-                <a href="#"><img src="./assets/img/shop-6.jpg" alt="boutique" class="bg"></a>
-            </div>
+                <img src="./assets/img/shop-1.jpg" alt="selle de vélo brooks" class="bg"></a>
+            </a>
 
-            <div class="item wide-horizontal"><!--item 6-->
-                <a href="#"><img src="./assets/img/shop-3.jpg" alt="selle zoomée" class="bg"></a>
-            </div>
+            <a href="#shop-grid" class="item"><!--item 2-->
+                <div class="ui-hover">
+                    <img src="./assets/img/logo-shop.png" alt="logo de la boutique">
+                    <span>shop now</span>
+                </div>
+                <img src="./assets/img/shop-2.jpg" alt="selles de vélo en magasin" class="bg">
+            </a>
 
-            <div class="item"><!--item 7-->
-                <a href="#"><img src="./assets/img/shop-7.jpg" alt="selle cuir" class="bg"></a>
-            </div>
+            <a href="#shop-grid" class="item wide-vertical"><!--item 3-->
+                <div class="ui-hover">
+                    <img src="./assets/img/logo-shop.png" alt="logo de la boutique">
+                    <span>shop now</span>
+                </div>
+                <img src="./assets/img/shop-4.jpg" alt="bagage sur vélo" class="bg">
+            </a>
 
-            <div class="item"><!--item 8-->
-                <a href="#"><img src="./assets/img/shop-8.jpg" alt="sacoche" class="bg"></a>
-            </div>
+            <a href="#shop-grid" class="item wide-vertical"><!--item 4-->
+                <div class="ui-hover">
+                    <img src="./assets/img/logo-shop.png" alt="logo de la boutique">
+                    <span>shop now</span>
+                </div>
+                <img src="./assets/img/shop-5.jpg" alt="bagage sur vélo" class="bg">
+            </a>
+
+            <a href="#shop-grid" class="item wide-horizontal"><!--item 5-->
+                <div class="ui-hover">
+                    <img src="./assets/img/logo-shop.png" alt="logo de la boutique">
+                    <span>shop now</span>
+                </div>
+                <img src="./assets/img/shop-6.jpg" alt="boutique" class="bg">
+            </a>
+
+            <a href="#shop-grid" class="item wide-horizontal"><!--item 6-->
+                <div class="ui-hover">
+                    <img src="./assets/img/logo-shop.png" alt="logo de la boutique">
+                    <span>shop now</span>
+                </div>
+                <img src="./assets/img/shop-3.jpg" alt="selle zoomée" class="bg">
+            </a>
+
+            <a href="#shop-grid" class="item"><!--item 7-->
+                <div class="ui-hover">
+                    <img src="./assets/img/logo-shop.png" alt="logo de la boutique">
+                    <span>shop now</span>
+                </div>
+                <img src="./assets/img/shop-7.jpg" alt="selle cuir" class="bg">
+            </a>
+
+            <a href="#shop-grid" class="item"><!--item 8-->
+                <div class="ui-hover">
+                    <img src="./assets/img/logo-shop.png" alt="logo de la boutique">
+                    <span>shop now</span>
+                </div>
+                <img src="./assets/img/shop-8.jpg" alt="sacoche" class="bg">
+            </a>
         </section>
 
-        <section class="newsletter"><!--newsletter-->
+        <section class="discover">
+            <a href="#">discover the shop</a>
+        </section>
+
+        <section class="newsletter" id="newsletter"><!--newsletter-->
             <img src="./assets/img/icons/main-logo.png" alt="logo principal">
             <h2 class="title-2"><i>Stay on the saddle !</i></h2>
             <form action="#">
@@ -160,5 +192,24 @@
             </form>
         </section>
     </main>
+
+    <footer class="main-footer">
+        <div class="company-infos">
+            <h3>AOD New York</h3>
+            <span><i>2250 Lexington Avenue</i></span>
+            <span><i>New York, NY 10035 - info@domain.com</i></span>
+        </div>
+
+        <div class="social" id="social">
+            <a href="#social"><img src="./assets/img/icons/twitter.png" alt="our twitter"></a>
+            <a href="#social"><img src="./assets/img/icons/facebook.png" alt="our facebook"></a>
+            <a href="#social"><img src="./assets/img/icons/pinterest.png" alt="our pinterest"></a>
+        </div>
+
+        <div class="handcrafted-by">
+            <span><i>Handcrafted by</i></span>
+            <img src="./assets/img/icons/yebologo.png" alt="yebo logo">
+        </div>
+    </footer>
 </body>
 </html>
