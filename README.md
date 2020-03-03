@@ -5,4 +5,4 @@ Approfondissement des feuilles de styles avec l'intégration de maquettes en SCS
 ## Yebo Bicycle Theme
 Demo: https://theo-billardey.fr/demos/yebo-bicycle-theme/
 
-<img src="https://i.imgur.com/ewNBtLE.jpg" alt="capture d'écran yebo bicycle theme" style="width: 75%;">
+<img src="https://i.imgur.com/ewNBtLE.jpg" alt="capture d'écran yebo bicycle theme" width="50%">
