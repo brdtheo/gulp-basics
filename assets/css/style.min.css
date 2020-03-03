@@ -50,5 +50,5 @@ main .discover a:hover{background:#f7f7f7;color:#282f35}
 main .newsletter{background:white}
 main .newsletter h2{color:#b7b7b7;padding:1rem 0 2rem 0}
 main .newsletter form{display:grid;grid-template-columns:3fr 1fr;grid-column-gap:1rem}
-main .newsletter form input[type=submit]{background:#6bb094;border:0;color:white;padding:1rem 3rem;font-family:'Raleway',arial,sans-serif;text-transform:uppercase;font-size:1.5rem;font-weight:lighter}
+main .newsletter form button{cursor:pointer;background:#6bb094;border:0;color:white;padding:1rem 3rem;font-family:'Raleway',arial,sans-serif;text-transform:uppercase;font-size:1.5rem;font-weight:lighter}
 main .newsletter form input[type=text]{padding:1rem 1rem;border:solid #b7b7b7 1px}
