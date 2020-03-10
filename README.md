@@ -1,7 +1,6 @@
-# SASS Training
+# Yebo Bicycle Theme
 
-Approfondissement des feuilles de styles avec l'intégration de maquettes en SCSS & SASS, le tout sur node.js/GULP.
+Reproduction d'une template en SCSS
 
-## Yebo Bicycle Theme
 Demo: https://theo-billardey.fr/demos/yebo-bicycle-theme/<br/>
 Maquette: https://imgur.com/ewNBtLE
