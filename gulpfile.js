@@ -2,7 +2,10 @@ const gulp = require("gulp");
 const browserSync = require("browser-sync").create();
 const sass = require("gulp-sass");
 const cleanCSS = require("gulp-clean-css");
+const runSequence = require("run-sequence");
+const del = require("del");
 
+// dev
 gulp.task("minify-css", () => {
   return gulp
     .src("app/css/*.css")
@@ -25,8 +28,21 @@ gulp.task("browser-sync", () => {
     },
   });
 
-  gulp.watch("app/scss/*.scss", gulp.series(["sass", "minify-css"]));
+  gulp.watch("app/scss/*.scss", () => {
+    runSequence("sass", "minify-css");
+  });
   gulp.watch("app/*.html").on("change", browserSync.reload);
+});
+
+// build
+gulp.task("clean-dist", () => {
+  return del.sync("dist");
+});
+
+gulp.task("build", () => {
+  gulp.series(["clean-dist"]);
+  gulp.src("app/css/**/*.css").pipe(gulp.dest("dist/css"));
+  return gulp.src("app/img/**/*").pipe(gulp.dest("dist/img"));
 });
 
 gulp.task("deploy", () => {
