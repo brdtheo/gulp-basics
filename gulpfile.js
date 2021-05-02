@@ -42,6 +42,7 @@ gulp.task("clean-dist", () => {
 
 gulp.task("build", () => {
   gulp.series(["clean-dist"]);
+  gulp.src("app/index.html").pipe(gulp.dest("dist/"));
   gulp.src("app/css/**/*.css").pipe(gulp.dest("dist/css"));
   return gulp.src("app/img/**/*").pipe(gulp.dest("dist/img"));
 });
