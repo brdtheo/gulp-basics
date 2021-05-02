@@ -4,6 +4,7 @@ const sass = require("gulp-sass");
 const cleanCSS = require("gulp-clean-css");
 const runSequence = require("run-sequence");
 const del = require("del");
+const deploy = require("gulp-gh-pages");
 
 // dev
 gulp.task("minify-css", () => {
