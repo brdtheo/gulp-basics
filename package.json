@@ -28,6 +28,7 @@
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
+    "lodash.template": "^4.5.0",
     "trim-newlines": "^4.0.1"
   }
 }
